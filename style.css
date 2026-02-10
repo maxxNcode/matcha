@@ -20,17 +20,16 @@ nav{
     width: 300px;
     padding: 6px;
     border-radius: 40px;
-    border: none;
+    border: none;   
 }
 
 .left{
     height: 650px;
-    width: 60%;
-    background-color: green;
+    width: 55%;
 }
 .right{
     height: 650px;
-    width: 40%;
+    width: 45%;
     background-color: rgb(161, 19, 140);
 }
 
@@ -67,3 +66,69 @@ nav{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 100px;
+    gap: 25px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title h1{
+    font-size: 100px;
+    font-family: Tahoma, sans-serif;
+}
+.title h2{
+    font-size: 100px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: -26px;
+}
+
+.line{
+    height: 4px;
+    width: 350px;
+    background-color: black;
+}
+
+.price h1{
+    font-size: 60px;
+    font-family: Tahoma;
+}
+.desc{
+    width: 600px;
+}
+.desc p{
+    font-family: tahoma;
+    font-size: 18px;
+}
+
+
+.CTA{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.CTA button{
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #00643b;
+    border: none;
+    color: white;
+}
+
+.CTA a{
+    font-size: 26px;
+    font-family: tahoma;
+}
+
