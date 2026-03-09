@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+    background-color: red;
+}
 
 nav{
     height: 90px;
@@ -16,7 +20,7 @@ nav{
     place-content: center;
 }
 .searchbar input{
-    height: 3   0px;
+    height: 30px;
     width: 300px;
     padding: 6px;
     border-radius: 40px;
