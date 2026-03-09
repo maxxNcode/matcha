@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+body{   
     overflow-x: hidden;
-    background-color: red;
+    background-color: rgb(235, 255, 245);
 }
 
 nav{
